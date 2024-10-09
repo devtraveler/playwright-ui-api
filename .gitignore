@@ -1,0 +1,76 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# TypeScript output directory
+dist/
+
+# Playwright test results and reports
+test-results/
+playwright-report/
+
+# Playwright videos and screenshots
+videos/
+screenshots/
+trace.zip
+*.webm
+*.png
+*.jpg
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.iml
+.idea/
+.vscode/
+.vscode-test/
+
+# Compiled TypeScript files
+*.tsbuildinfo
+
+# Coverage directory
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Debugging and IDE files
+*.swp
+*.swo
+
+# macOS files
+._*
+.Spotlight-V100
+.Trashes
+.DS_Store
+
+# Windows files
+*.bat
+*.cmd
+*.exe
+*.dll
+
+# Bash and shell history files
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.zsh_history
+.zshrc
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# GitHub action
+.github/
